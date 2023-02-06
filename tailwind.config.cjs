@@ -33,6 +33,18 @@ module.exports = {
         gray: "#c8c8c8",
         neonBlue: "#23DCFF",
       },
+      animation: {
+        bounce: "bounce 5s linear infinite",
+      },
+      keyframes: {
+        bounce: {
+          "0%, 100%": { transform: "translateY(-20px)" },
+          "50%": {
+            transform: "none",
+            animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
+          },
+        },
+      },
     },
   },
   plugins: [],

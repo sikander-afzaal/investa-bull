@@ -25,7 +25,7 @@ const About = () => {
         >
           <img
             src="/phone.png"
-            className="md:self-start lg:max-w-full max-w-[70%] md:max-w-[40%]"
+            className="md:self-start animate-bounce lg:max-w-full max-w-[70%] md:max-w-[40%]"
             alt=""
           />
         </Fade>
