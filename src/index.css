@@ -63,7 +63,11 @@
   box-sizing: border-box;
 }
 body {
+  overflow-x: hidden;
   background-color: #0c0c26;
+}
+html {
+  overflow-x: hidden;
 }
 .stroke-text {
   -webkit-text-stroke: 8px transparent;

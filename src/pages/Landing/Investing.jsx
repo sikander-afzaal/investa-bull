@@ -1,10 +1,13 @@
+import { Fade } from "react-awesome-reveal";
 import InvestingRow from "../../components/InvestingRow";
 
 const Investing = () => {
   return (
     <div className="wrapper mt-[70px] lg:mt-[140px]">
       <div className="contain flex-col justify-center items-center">
-        <h2 className="title">simple, interactive, investing</h2>
+        <Fade triggerOnce direction="down">
+          <h2 className="title">simple, interactive, investing</h2>
+        </Fade>
         <div className="flex justify-start items-center flex-col w-full gap-[80px] md:gap-[150px] mt-[100px]">
           <InvestingRow
             num="/one.png"

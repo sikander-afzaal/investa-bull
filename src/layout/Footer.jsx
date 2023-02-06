@@ -57,7 +57,7 @@ const Footer = () => {
             href="#"
             className="text-base gap-5 grid grid-cols-[20px__auto] place-items-center text-white font-clash font-normal"
           >
-            <img src="/fb.png" alt="" /> Facebook
+            <img src="/fb.png" className="max-w-[12px]" alt="" /> Facebook
           </a>
           <a
             target="blank"
