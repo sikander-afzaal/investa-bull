@@ -1,0 +1,30 @@
+const Hero = () => {
+  return (
+    <div className="pb-[140px] pt-[160px] min-h-[500px] md:pt-[100px] lg:pt-[160px] bg-heroBg bg-cover bg-center lg:h-screen md:min-h-[620px] wrapper">
+      <div className="contain flex-col justify-start items-center lg:text-left text-center  lg:items-start gap-8 lg:gap-14">
+        <div className="flex justify-start items-center lg:items-start flex-col gap-2">
+          <h4 className="uppercase tracking-[0.435em] font-orbitron text-white font-semibold text-xl md:text-2xl opacity-80">
+            Welcome to
+          </h4>
+          {/* <h1 className="bg-clip-text uppercase stroke-text bg-textGr text-transparent font-zen text-[58px] font-normal">
+            Investabull
+          </h1> */}
+          <img
+            src="/hero-title.png"
+            className="w-full md:h-[70px] object-contain"
+            alt=""
+          />
+        </div>
+        <p className="text-gray max-w-[550px] text-sm font-normal font-monument leading-[2.25]">
+          The worlds first Decentralised and interactive, blockchain project
+          investment presale dapp,
+        </p>
+        <button className="font-clash  text-xl font-semibold text-white bg-pinkish-purple rounded-[5px] w-[174px] h-[52px]">
+          Launch App
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
