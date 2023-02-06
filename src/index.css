@@ -44,6 +44,12 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
+  .purple-btn {
+    @apply font-clash  text-xl font-semibold border-2 hover:shadow-transparent border-solid border-pinkish-purple hover:bg-transparent transition-all duration-300 text-white bg-pinkish-purple rounded-[5px] px-5 shadow-btn h-[52px];
+  }
+  .title {
+    @apply font-mesa uppercase text-center  font-normal bg-investingText bg-clip-text text-transparent leading-[1.6] text-[25px] md:text-[35px] xl:text-[40px];
+  }
   .wrapper {
     @apply flex justify-center items-center flex-col w-full;
   }

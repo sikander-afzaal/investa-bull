@@ -40,11 +40,11 @@ const Header = () => {
           >
             Incubator
           </a>
-          <button className="font-clash md:hidden block text-xl font-semibold text-white bg-pinkish-purple rounded-[5px] w-[164px] min-h-[42px]">
+          <button className="font-clash md:hidden block text-xl font-semibold text-white border-2 hover:shadow-transparent border-solid border-pinkish-purple hover:bg-transparent transition-all duration-300 shadow-btn bg-pinkish-purple rounded-[5px] w-[164px] min-h-[42px]">
             Login
           </button>
         </nav>
-        <button className="font-clash md:block hidden text-xl font-semibold text-white bg-pinkish-purple rounded-[5px] w-[164px] h-[42px]">
+        <button className="font-clash md:block hidden text-xl font-semibold text-white border-2 hover:shadow-transparent border-solid border-pinkish-purple hover:bg-transparent transition-all duration-300 shadow-btn bg-pinkish-purple rounded-[5px] w-[164px] h-[42px]">
           Login
         </button>
         {headerToggle ? (

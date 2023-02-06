@@ -18,11 +18,7 @@ const InvestingRow = ({ num, img, title, desc, order, btn }) => {
         <p className="text-[#fffdfd] text-[15px] font-normal font-clash leading-[1.9]">
           {desc}
         </p>
-        {btn && (
-          <button className="font-clash  text-xl font-semibold text-white bg-pinkish-purple rounded-[5px] w-[164px] h-[42px]">
-            More Details
-          </button>
-        )}
+        {btn && <button className="purple-btn">More Details</button>}
       </div>
       <img
         src={img}

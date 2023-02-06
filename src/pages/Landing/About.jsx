@@ -11,9 +11,7 @@ const About = () => {
             platform which is phone and desktop compatible, allowing for a clear
             and hassle free experience
           </p>{" "}
-          <button className="font-clash  text-xl font-semibold text-white bg-pinkish-purple rounded-[5px] w-[174px] h-[52px]">
-            Launch App
-          </button>
+          <button className="purple-btn">Launch App</button>
         </div>
         <img
           src="/phone.png"

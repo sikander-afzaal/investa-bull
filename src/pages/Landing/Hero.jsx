@@ -19,9 +19,7 @@ const Hero = () => {
           The worlds first Decentralised and interactive, blockchain project
           investment presale dapp,
         </p>
-        <button className="font-clash  text-xl font-semibold text-white bg-pinkish-purple rounded-[5px] w-[174px] h-[52px]">
-          Launch App
-        </button>
+        <button className="purple-btn">Launch App</button>
       </div>
     </div>
   );

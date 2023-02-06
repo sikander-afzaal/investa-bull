@@ -4,9 +4,7 @@ const Investing = () => {
   return (
     <div className="wrapper mt-[70px] lg:mt-[140px]">
       <div className="contain flex-col justify-center items-center">
-        <h2 className="font-mesa uppercase text-center font-normal bg-investingText bg-clip-text text-transparent text-[22px] sm:text-[25px] md:text-[35px] xl:text-[40px]">
-          simple, interactive, investing
-        </h2>
+        <h2 className="title">simple, interactive, investing</h2>
         <div className="flex justify-start items-center flex-col w-full gap-[80px] md:gap-[150px] mt-[100px]">
           <InvestingRow
             num="/one.png"

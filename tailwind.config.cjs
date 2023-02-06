@@ -11,10 +11,16 @@ module.exports = {
         monument: "Monument",
         mesa: "Mesa",
       },
+      boxShadow: {
+        btn: "0px 0px 20px 5px #D231BCBA",
+      },
       backgroundImage: {
         headerBg: "url('/header-bg.png')",
         heroBg: "url('/hero-bg.png')",
         aboutBg: "url('/about-bg.png')",
+        beginBg: "url('/begin-bg.png')",
+        footerBg: "url('/footer-bg.png')",
+        map: "url('/map.png')",
         borderWhite:
           "linear-gradient(270deg, rgba(96, 220, 255, 0) -2.67%, #FFFFFF 53.21%, rgba(96, 220, 255, 0) 102.52%)",
         investingText:
@@ -25,6 +31,7 @@ module.exports = {
       colors: {
         "pinkish-purple": "#D231BC",
         gray: "#c8c8c8",
+        neonBlue: "#23DCFF",
       },
     },
   },
